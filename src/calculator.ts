@@ -60,7 +60,7 @@ class Calculator{
         }
         result = this.solvePartial(number1, number2, operation);
 
-        return result;
+        return result
     }
 
     private solvePartial(number1:number, number2:number, operation:Operator): number{
