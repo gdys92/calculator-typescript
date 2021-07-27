@@ -153,7 +153,7 @@ var Calculator = /** @class */ (function () {
                         side = Side.Right;
                     }
                 }
-                multiplier = 1
+                multiplier = 1;
             }
         }
         result = this.solvePartial(number1, number2, operation);
