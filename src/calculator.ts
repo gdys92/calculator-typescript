@@ -75,7 +75,7 @@ class Calculator{
                 return number1 * number2;
             break;
             default:
-                return 0
+                return 0;
         }
     }
 
