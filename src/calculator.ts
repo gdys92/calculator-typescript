@@ -37,7 +37,7 @@ class Calculator{
                 if(side === Side.Right){
                     number1 += (Number(item) * multiplier);
                 }else{
-                    number2 += (Number(item) * multiplier);
+                    number2 += (Number(item) * multiplier)
                 }
                 multiplier *= 10;
             }else{ // it's an operator
